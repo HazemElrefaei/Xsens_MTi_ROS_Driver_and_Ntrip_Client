@@ -1,11 +1,11 @@
 ntrip_client:
   ros__parameters:
     # NTRIP Server Configuration
-    host: 203.107.45.154        # Change to the IP address of Your NTRIP caster
-    port: 8002                  # Change to your port number WGS84
+    host: 3.143.243.81        # Change to the IP address of Your NTRIP caster
+    port: 2101                  # Change to your port number WGS84
     mountpoint: AUTO            # Your NTRIP mountpoint
-    username: Your_User_Name    # Your NTRIP username
-    password: Your_Password     # Your NTRIP password
+    username: hazem.elrefaei@ku.ac.ae    # Your NTRIP username
+    password: none     # Your NTRIP password
 
     # NMEA and Update Rate Configuration
     nmea_input_rate: 4.0          # Input NMEA rate in Hz (default: 4.0)
